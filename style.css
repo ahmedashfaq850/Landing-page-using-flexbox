@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #081839;
+    font-family: 'Open Sans' sans-serif;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+
+.hero-img{
+    max-width: 670 px;
+    height: auto;
+}
+
+.content-left{
+    width: 30%;
+
+}
+
+main h1{
+    font-size: 30px;
+    color: white;
+}
+
+main h2{
+    font-size: 30px;
+    color: white;
+}
+
+main h3{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+main p{
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+
+.buy-now{
+    padding: 15px 30px;
+    background-color: white;
+    color: #081839;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    text-transform: 700;
+    border-radius: 50px;
+}
